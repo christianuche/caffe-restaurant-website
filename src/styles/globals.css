@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* global heading styles */
+h1 {
+  @apply text-4xl font-extrabold text-gray-800 my-6;
+}
